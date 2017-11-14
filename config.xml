@@ -2,11 +2,21 @@
 <widget id="com.olicom.push2" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>olicom_push2</name>
     <description>
-        A blank PhoneGap app.
+        Push App
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="andrzej@olicom.pl" href="http://olicom.pl">
+        Olicom Interactive
     </author>
     <content src="index.html" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <engine name="android" spec="~6.3.0" />
+    <plugin name="phonegap-plugin-push" spec="~2.1.0" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.4" />
 </widget>
