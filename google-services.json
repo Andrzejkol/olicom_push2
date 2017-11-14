@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "245703788546",
+    "firebase_url": "https://olicom-push2.firebaseio.com",
+    "project_id": "olicom-push2",
+    "storage_bucket": "olicom-push2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245703788546:android:3f0d0c82bc7cd647",
+        "android_client_info": {
+          "package_name": "com.olicom.push2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245703788546-u2vpburdq4hj1ihjgo4scijq6s1c9hrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-KzqZUDQp_kOSZgpiS4B48wCVlYSWC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
